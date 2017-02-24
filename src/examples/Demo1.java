@@ -72,7 +72,7 @@ public class Demo1 {
 			.stream().
 			filter(Demo1::isEven).
 			filter(isGreaterThan.apply(4)).
-			map(multiplyBy.apply(18)).
+			map(multiplyBy.apply(2)).
 			findFirst();
 	}
 
